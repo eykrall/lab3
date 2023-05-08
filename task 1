@@ -1,0 +1,10 @@
+#task1 
+
+org_name = input("Enter the full name of the organization: ")
+
+words = org_name.split()
+abbrev = ""
+for word in words:
+     abbrev += word[0].upper()
+
+print("The abbreviation for", org_name, "is", abbrev)
